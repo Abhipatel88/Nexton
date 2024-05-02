@@ -1,0 +1,297 @@
+@media (max-width:800px) {
+    .nav{
+        padding: 1rem;
+        /* background-color: saddlebrown; */
+        .m{
+            a{
+
+                display: none!important;
+            }
+        }
+        .r{
+            .btn{
+                display: none!important;
+            }
+        }
+    }
+
+
+
+    .hero{
+
+        .mobile-hero{
+            display: block !important;
+            width: 100% !important;
+            height: 100% !important;
+
+    }
+    .hero-image{
+        display: none !important;
+    }
+    .hero-slogan{
+        left: 0%;
+        color: white;
+        h5{
+            font-size: 2.5rem;
+            font-weight: 400;
+            text-align: start;
+            
+            color: #444;
+  text-shadow: 
+    1px 0px 1px #ccc, 0px 1px 1px #eee, 
+    2px 1px 1px #ccc, 1px 2px 1px #eee,
+    3px 2px 1px #ccc, 2px 3px 1px #eee,
+    4px 3px 1px #ccc, 3px 4px 1px #eee,
+    5px 4px 1px #ccc, 4px 5px 1px #eee,
+    6px 5px 1px #ccc, 5px 6px 1px #eee,
+    7px 6px 1px #ccc;
+        }
+    }
+    .shadow{
+        display: block !important;
+    }
+    .hero-slogan3{
+        left: 0%;
+        color: white;
+        h5{
+            font-size: 2.5rem;
+            font-weight: 400;
+            text-align: start;
+            color: #444;
+  text-shadow: 
+    1px 0px 1px #ccc, 0px 1px 1px #eee, 
+    2px 1px 1px #ccc, 1px 2px 1px #eee,
+    3px 2px 1px #ccc, 2px 3px 1px #eee,
+    4px 3px 1px #ccc, 3px 4px 1px #eee,
+    5px 4px 1px #ccc, 4px 5px 1px #eee,
+    6px 5px 1px #ccc, 5px 6px 1px #eee,
+    7px 6px 1px #ccc;
+        }
+    }
+}
+    .section2{
+        /* background-color: rgb(173, 84, 20); */
+        height: 13vh;
+        overflow: hidden;
+        flex-direction: column;
+        padding: 0rem 0.5rem;
+        .mobile-part-h2{
+            display: block;
+            margin-left: 15px;
+        }
+        .box{
+            overflow: hidden;
+            height: 5vh;
+            margin-top: 1rem;
+            .mini-box{
+                width: 100%;
+                /* background-color: darkblue; */
+                padding: 2rem;
+                /* align-items: start; */
+                justify-content: start;
+                h2{
+                    font-size: 0.7rem;
+                }
+                h4{
+                    
+                    display: none;
+                }
+                img{
+                    height: 20px;
+                }
+            }
+
+        }
+    }
+    .section3{
+        padding: 1rem;
+
+        h1{
+            font-size: 2rem;
+        }
+        .swiper-slide{
+            width:500px !important;
+
+        }
+    }
+    .section4{
+        padding: 1rem;
+        height: 85vh;
+        h1{
+            width: 100%;
+            /* background-color: darkblue; */
+        }
+
+    }
+    .section5{
+        width: 100%;
+        padding: 1rem;
+        height: 100vh;
+        .mobile-content-img{
+            display: block !important;
+            width: 100%;
+        }
+        img{
+            display: none;
+        }
+        .content{
+            left:5%;
+            p{
+                color: gray;
+                font-size: 1.5rem;
+                margin-bottom: 5px;
+            }
+            h1{
+                font-size: 3.5rem;
+                margin-bottom: 5px;
+
+                font-weight: 700;
+                line-height: 50px;
+    
+            }
+            h4{
+                color: grey;
+                margin-bottom: 5px;
+
+                font-size: 2.5rem;
+                font-weight: 300;
+    
+            }
+            .explore{
+                padding: 1rem 1.2rem;
+                font-size: 1.5rem;
+
+                background-color: black;
+                border: none;
+                outline: none;
+                color: white;
+                border-radius: 30px;
+            }
+        }
+    }
+}
+@media (max-width:560px){
+    .section3{
+        h1{
+            font-size: 2rem;
+        }
+        .swiper-slide{
+            width:350px !important;
+
+        }
+    }
+}
+@media (max-width:530px){
+    footer{
+        height: 80vh;
+        padding: 1rem;
+        /* background-color: salmon; */
+          display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+        .top{
+            flex-direction: column;
+            padding: 0;
+            .l{
+                padding: 0;
+                
+        /* background-color: darkcyan; */
+        width: 100%;
+            }
+            .r{
+                /* background-color: darkblue; */
+                width: 100%;
+                padding: 0;
+                table{
+                    display: flex;
+                    align-items: start;
+                    justify-content: start;
+                    flex-direction: column;
+                    tr{
+                        
+                    }
+                }
+            }
+        }
+        .bot{
+            flex-direction: column;
+            /* display: none; */
+            width: 100%;
+            padding: 0;
+            /* background-color: darkgoldenrod; */
+            .left{
+                width: 100%;
+                padding: 0;
+                justify-content: center;
+
+            }
+            .right{
+                width: 100%;
+                padding: 0;
+                justify-content: center;
+            }
+        }
+    }
+}
+@media (max-width:650px) {
+    .nav{
+    padding: 0.7rem;
+
+        .l{
+            width: 30%;
+            /* background-color: saddlebrown; */
+            img{
+                height: 40px;
+                
+            }
+        } 
+        .m{
+            /* background-color: darkblue; */
+            width: 50%;
+            .search{
+                    
+                width: 200px;
+            }
+        }
+        .r{
+            /* background-color: darkcyan; */
+            width: 20%;
+        }
+    }   
+    .section5{
+        p{
+            color: gray;
+            font-size: 1rem;
+            margin-bottom: 5px;
+        }
+        h1{
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+
+            font-weight: 700;
+            line-height: 50px;
+
+        }
+        h4{
+            color: grey;
+            margin-bottom: 5px;
+
+            font-size: 1.5rem;
+            font-weight: 300;
+
+        }
+        .explore{
+            padding: 1rem 1.2rem;
+            /* font-size: 1.5rem; */
+
+            background-color: black;
+            border: none;
+            outline: none;
+            color: white;
+            border-radius: 30px;
+        }
+    }
+    
+}
