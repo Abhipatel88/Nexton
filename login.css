@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.section1 {
+  width: 100%;
+  height: 100vh;
+  /* background-color: cadetblue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .l {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    .mb {
+      display: none;
+    }
+  }
+  .r {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* padding: rem; */
+
+    .login-box {
+      display: flex;
+      align-items: start;
+      justify-content: start;
+      flex-direction: column;
+      padding: 1rem;
+      /* width: 300px;
+            height: 300px; */
+      /* border: 2px solid black; */
+      border-radius: 20px;
+      h1 {
+        /* text-align: center; */
+        /* margin-left: 100px; */
+        /* margin-bottom: 10px; */
+        font-size: 1.9rem;
+        /* align-items: center; */
+      }
+      label {
+        text-align: start;
+        font-weight: 500;
+        /* background-color: darkblue; */
+        margin-bottom: 5px;
+      }
+
+      input {
+        width: 300px;
+        height: 40px;
+        border-radius: 20px;
+        border: 2px solid black;
+        background-color: transparent;
+        margin-bottom: 20px;
+      }
+      input::placeholder {
+        padding: 1rem;
+      }
+      .loginbtn {
+        width: 100%;
+        height: 50px;
+        background-color: black;
+        color: white;
+        border-radius: 30px;
+        border: none;
+        margin-bottom: 15px;
+      }
+      p {
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 560px) {
+  .section1 {
+    .l {
+      width: 100%;
+      .mb {
+        display: block;
+      }
+      .lp {
+        display: none;
+      }
+    }
+    .r {
+      position: absolute;
+      color: white;
+      .login-box {
+        backdrop-filter: blur(30px);
+        border: 1px solid grey;
+      }
+      h1 {
+        color: rgb(0, 0, 0);
+        text-shadow: 0px 2px 2px rgba(128, 128, 128, 1);
+        text-shadow: 0px 2px 2px rgba(255, 255, 255, 1);
+      }
+      lable {
+        color: white;
+        border: 1px solid gray;
+      }
+      input::placeholder {
+        color: aliceblue;
+      }
+      input {
+        border: 1px solid gainsboro;
+      }
+    }
+  }
+}
